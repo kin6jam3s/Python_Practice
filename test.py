@@ -8,4 +8,4 @@ print('Hi')
 
 
 def change():
-    pass
+    return
