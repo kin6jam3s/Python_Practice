@@ -9,3 +9,7 @@ print('Hi')
 
 def change():
     return
+
+
+def subtrac():
+    pass
