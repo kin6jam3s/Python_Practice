@@ -1,0 +1,26 @@
+git branch subtract # create
+git branch -a
+git checkout subtract 
+
+git status 
+
+git add -A
+git commit -m "SUBRTRACT COMMIT"
+
+git push -u origin subtract
+git checkout master
+git pull origin master
+
+git branch --merge
+git merge subtract
+
+
+Delete 
+*******
+git branch --merge
+
+git branch -d subtract
+
+git branch -a
+
+git push origin --delete substract <- Delete from remote 
